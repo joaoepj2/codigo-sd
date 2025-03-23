@@ -1,4 +1,4 @@
-# Experimento 3 - Enviando 100 mensagens em sequencia
+# Experimento 4 - Enviando com intervalos de espera aleatóreos
 1. Execute o udpReceiver
 2. Execute o udpSender
 
