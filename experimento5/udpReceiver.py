@@ -16,5 +16,5 @@ print("udpReceiver aguardando a chegada de datagramas no IP "
  
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
-    print("The message: %s de %d received Datagrams" % (data.decode(), counter), end="\r")
+    print("The message: %s de %d received Datagrams" % (data.decode().split("Lorem")[0], counter), end="\r")
     counter = counter + 1
