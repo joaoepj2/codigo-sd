@@ -1,6 +1,6 @@
 import socket
  
-UDP_IP = "18.188.204.225"
+UDP_IP = "44.201.233.10"
 UDP_PORT = 80
 MESSAGE = b'Hello, World!'
 counter = 0
