@@ -15,5 +15,5 @@ sock = socket.socket(socket.AF_INET, # Internet
 #counter = counter + 1
 
 #for counter = 1
-print("Enviando uma mensagem para o IP: " + str(host) + ", porta " + str(port))
+print("Enviando uma mensagem para o IP " + str(host) + ", porta " + str(port))
 sock.sendto(message, (host, port))
