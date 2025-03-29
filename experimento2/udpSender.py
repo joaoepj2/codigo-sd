@@ -12,3 +12,5 @@ sock = socket.socket(socket.AF_INET, # Internet
 
 print("Enviando uma mensagem para o IP " + str(host) + ", porta " + str(port))
 sock.sendto(message, (host, port))
+data, addr = sock.recvfrom(1024)
+print("Mensagem: " + data.decode() + " foi recebida de ", addr)
