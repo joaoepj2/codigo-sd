@@ -20,6 +20,6 @@ while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     consoleMessage = "A message was received from " + str(addr)
     print(consoleMessage)
-    sock.send(bytearray(consoleMessage))
+    sock.send(bytearray(consoleMessage, "utf-8"))
 
 
