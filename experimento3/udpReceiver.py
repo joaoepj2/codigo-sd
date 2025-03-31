@@ -15,6 +15,9 @@ print("udpReceiver aguardando a chegada de datagramas no IP "
  
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
-    consoleMessage = data.decode() + "vindo do IP e Porta: " + str(addr)
+    consoleMessage = data.decode() + " vindo de " + str(addr)
+    accMessage = consoleMessage + "\n" + consoleMessage
     print(consoleMessage)
-    sock.sendto(bytearray(consoleMessage, "utf-8"), addr)
+
+    if data.decode() == "fim":
+       sock.sendto(bytearray("\n" + accMessage, "utf-8"), addr)

@@ -15,3 +15,7 @@ for counter in range(1, 101):
     message = "Eu sou o Datagrama numero " + str(counter)
     messageBytes = bytearray(message, "ascii")
     sock.sendto(messageBytes, (host, port))
+
+sock.sendto(b'fim', (host, port))
+serverData, addr = sock.recvfrom(1024)
+print(serverData.decode())
