@@ -3,4 +3,10 @@
 1. Execute o udpReceiver
 2. Execute o udpSender várias vezes
 
-Note que a variável UDP_IP teve seu valor alterado de "127.0.0.1" para "0.0.0.0". Faça um pesquisa e explique essa alteração?
+* Note que a variável UDP_IP teve seu valor alterado de "127.0.0.1" para "0.0.0.0". Faça um pesquisa e explique essa alteração.
+
+* O host do Sender também foi atualizado. Faça um pesquisa e explique essa alteração.
+
+* Porque o Receiver recebe a mensagem de uma porta diferente a cada execução do Sender?
+
+

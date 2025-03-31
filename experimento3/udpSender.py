@@ -1,7 +1,7 @@
 import socket
  
-host = "44.201.233.10"
-port = 50000
+host = "52.90.82.178"
+port = 50003
 
 
  
