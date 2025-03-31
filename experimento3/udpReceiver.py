@@ -13,7 +13,7 @@ print("udpReceiver aguardando a chegada de datagramas no IP "
        + socket.gethostbyname(socket.gethostname())
        + ", porta " + str(UDP_PORT))
 
- 
+accMessage = "" 
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     consoleMessage = data.decode() + " vindo de " + str(addr)

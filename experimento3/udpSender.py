@@ -1,5 +1,6 @@
 import socket
- 
+import select
+
 host = "52.90.82.178"
 port = 50003
 
@@ -17,5 +18,11 @@ for counter in range(1, 101):
     sock.sendto(messageBytes, (host, port))
 
 sock.sendto(b'fim', (host, port))
-serverData, addr = sock.recvfrom(1024)
-print(serverData.decode())
+
+# Wait for a packet for 5 seconds
+ready = select.select([sock], [], [], 5)
+if ready:
+    serverData, addr = sock.recvfrom(1024)
+    print(serverData.decode())
+
+sock.close()
