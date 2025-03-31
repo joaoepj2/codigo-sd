@@ -1,7 +1,7 @@
 import socket
  
-host = "44.201.233.10"
-port = 50000
+host = "52.90.82.178"
+port = 50002
 message = b'Eu sou um Datagrama!'
 
  
@@ -13,4 +13,4 @@ sock = socket.socket(socket.AF_INET, # Internet
 print("Enviando uma mensagem para o IP " + str(host) + ", porta " + str(port))
 sock.sendto(message, (host, port))
 data, addr = sock.recvfrom(1024)
-print("Mensagem: " + data.decode() + " foi recebida de ", addr)
+print("\nServer log: " + data.decode())
