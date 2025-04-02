@@ -21,5 +21,6 @@ while True:
     print(consoleMessage)
 
     if data.decode() == "fim":
+       print(accMessage)
        sock.sendto(bytearray("\n" + accMessage, "utf-8"), addr)
        accMessage = ""
