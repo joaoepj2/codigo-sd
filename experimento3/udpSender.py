@@ -22,7 +22,7 @@ sock.sendto(b'fim', (host, port))
 # Wait for a packet for 5 seconds
 ready = select.select([sock], [], [], 5)
 if ready:
-    serverData, addr = sock.recvfrom(1024)
+    serverData, addr = sock.recvfrom(51200)
     print(serverData.decode())
 
 sock.close()
