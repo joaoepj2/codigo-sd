@@ -12,7 +12,7 @@ sock = socket.socket(socket.AF_INET, # Internet
 
 
 for counter in range(1, 101):
-    print("Enviando a mensagem " + str(counter) + " para o IP " + str(host) + ", porta " + str(port))
+    #print("Enviando a mensagem " + str(counter) + " para o IP " + str(host) + ", porta " + str(port))
     message = "Eu sou o Datagrama numero " + str(counter)
     messageBytes = bytearray(message, "ascii")
     sock.sendto(messageBytes, (host, port))
