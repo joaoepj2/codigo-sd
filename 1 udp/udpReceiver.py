@@ -10,7 +10,7 @@ sock.bind((UDP_IP, UDP_PORT))
 
 
 print("udpReceiver aguardando a chegada de datagramas no IP "
-       + socket.gethostbyname(socket.gethostname())
+       + socket.gethostbyname("localhost")
        + ", porta " + str(UDP_PORT))
  
 while True:

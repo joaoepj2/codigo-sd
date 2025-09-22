@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Soma1RPC {
+    rpc Soma1 (RequisicaoSoma1) returns (RespostaSoma1);
+}
+
+message RequisicaoSoma1 {
+    int32 a = 1;
+    int32 b = 2;
+}
+
+message RespostaSoma1 {
+    int32 res = 1;
+}
