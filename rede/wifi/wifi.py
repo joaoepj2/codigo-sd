@@ -3,8 +3,11 @@
 
 import wifi
 
-for iface in interfaces
-    print(f"Interface Wifi: " {iface.name()})
+interfaces = wifi.iface
+
+
+for iface in interfaces:
+    print(f"Interface Wifi:  {iface.name()}")
 
 cells = wifi.Cell.all(iface)
 
