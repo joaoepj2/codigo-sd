@@ -1,0 +1,584 @@
+    1  yum install python git
+    2  sudo yum install python git
+    3  pwd
+    4  ]git clone https://github.com/joaoepj2/codigo-sd.git
+    5  git clone https://github.com/joaoepj2/codigo-sd.git
+    6  vi
+    7  ls
+    8  cd codigo-sd/
+    9  ls
+   10  vi app.py
+   11  sudo flask run --host=0.0.0.0 --port=80
+   12  yum install python3-flask
+   13  sudo yum install python3-flask
+   14  sudo flask run --host=0.0.0.0 --port=80
+   15  python experimento2/udpReceiver.py 
+   16  sudo flask run --host=0.0.0.0 --port=80
+   17  ls
+   18  lsflask --help
+   19  flask --help
+   20  sudo flask run --host=0.0.0.0 --port=80
+   21  sudo flask shell --host=0.0.0.0 --port=80
+   22  ls experimento2
+   23  ls -l experimento2
+   24  vi experimento1/test.py
+   25  python experimento1/test.py 
+   26  vi app.py
+   27  sudo flask run --host=0.0.0.0 --port=80
+   28  cd codigo-sd/
+   29  cd codigo-sd/
+   30  vi experimento1/test.py 
+   31  vi app.py 
+   32  ps aux
+   33  ps ux
+   34  cat codigo-sd/app.py 
+   35  vi codigo-sd/app.py 
+   36  ps ux
+   37  kill -9 28250
+   38  vi codigo-sd/app.py 
+   39  ps ux
+   40  vi codigo-sd/app.py 
+   41  sudo flask run --host=0.0.0.0 --port=80
+   42  pwd
+   43  cd codigo-sd/
+   44  sudo flask run --host=0.0.0.0 --port=80
+   45  vi app.py 
+   46  sudo flask run --host=0.0.0.0 --port=80
+   47  vi app.py 
+   48  sudo flask run --host=0.0.0.0 --port=80
+   49  vi app.py 
+   50  vi app.py
+   51  sudo flask run --host=0.0.0.0 --port=80
+   52  vi app.py
+   53  ls -l
+   54  vi app.py
+   55  kill -9 32621
+   56  vi app.py
+   57  sudo flask run --host=0.0.0.0 --port=80
+   58  cd codigo-sd/
+   59  vi app.py 
+   60  cd codigo-sd/
+   61  sudo flask run --host=0.0.0.0 --port=80
+   62  vi app.py 
+   63  sudo flask run --host=0.0.0.0 --port=80
+   64  vi app.py 
+   65  sudo flask run --host=0.0.0.0 --port=80
+   66  vi app.py 
+   67  sudo flask run --host=0.0.0.0 --port=80
+   68  vi app.py 
+   69  sudo flask run --host=0.0.0.0 --port=80
+   70  vi experimento1/test.py 
+   71  sudo flask run --host=0.0.0.0 --port=80
+   72  vi experimento2/udpReceiver.py
+   73  vi app.py 
+   74  sudo flask run --host=0.0.0.0 --port=80
+   75  vi app.py 
+   76  sudo flask run --host=0.0.0.0 --port=80
+   77  vi app.py 
+   78  sudo flask run --host=0.0.0.0 --port=80
+   79  view experimento2/udpReceiver.py 
+   80  python experimento2/udpReceiver.py 
+   81  vi experimento2/udpReceiver.py 
+   82  python experimento2/udpReceiver.py 
+   83  sudo flask run --host=0.0.0.0 --port=80
+   84  vi app.py 
+   85  sudo flask run --host=0.0.0.0 --port=80
+   86  vi app.py 
+   87  sudo flask run --host=0.0.0.0 --port=80
+   88  python experimento2/udpReceiver.py 
+   89  vi experimento2/udpReceiver.py 
+   90  python experimento2/udpReceiver.py 
+   91  vi experimento2/udpReceiver.py 
+   92  python experimento2/udpReceiver.py 
+   93  vi experimento2/udpReceiver.py 
+   94  python experimento2/udpReceiver.py 
+   95  view experimento2/udpReceiver.py 
+   96  python experimento2/udpReceiver.py 
+   97  git log
+   98  git status
+   99  git restore experimento2/udpReceiver.py 
+  100  git status
+  101  rm __pycache__/ app.py experimento1/test.py file.test 
+  102  git status
+  103  rm -rf __pycache__/
+  104  cd __pycache__/
+  105  ls
+  106  ls -l
+  107  sudo rm app.cpython-39.pyc 
+  108  cd ..
+  109  rm -rf __pycache__/
+  110  ls
+  111  git status
+  112  git pull
+  113  git status
+  114  git log
+  115  git status -uno
+  116  git status
+  117  python experimento2/udpReceiver.py 
+  118  python experimento2/udpReceiver.py &
+  119  python experimento3/udpReceiver.py
+  120  git status -uno
+  121  git fetch
+  122  git status -uno
+  123  git pull
+  124  python experimento3/udpReceiver.py
+  125  cat experimento3/udpReceiver.py 
+  126  pwd
+  127  git status
+  128  git log
+  129  git pull
+  130  python experimento3/udpReceiver.py
+  131  python codigo-sd/experimento3/udpReceiver.py
+  132  cd codigo-sd/
+  133  git pull
+  134  cat experimento3/udpReceiver.py 
+  135  git pull
+  136  cat experimento3/udpReceiver.py 
+  137  python experimento3/udpReceiver.py
+  138  git pull
+  139  python experimento3/udpReceiver.py
+  140  git pull
+  141  python experimento3/udpReceiver.py
+  142  git pull
+  143  python experimento3/udpReceiver.py
+  144  git pull
+  145  python experimento3/udpReceiver.py
+  146  ps aux
+  147  ps aux | grep udpReceiver
+  148  cd codigo-sd/
+  149  python experimento2/udpReceiver.py
+  150  python experimento2/udpReceiver.py &
+  151  ps aux | grep udpReceiver
+  152  systemctl -a
+  153  cd /etc/systemd/system
+  154  vi /etc/systemd/system/experimento2.service
+  155  sudo vi /etc/systemd/system/experimento2.service
+  156  systemctl status experimento2.service 
+  157  systemctl start experimento2.service 
+  158  systemctl status experimento2.service 
+  159  journalctl
+  160  journalctl -af
+  161  sudo systemctl daemon-reload
+  162  systemctl start experimento2.service 
+  163  systemctl status experimento2.service 
+  164  cd codigo-sd/
+  165  ls
+  166  python experimento2/udpReceiver.py 
+  167  which python
+  168  ls /etc/system/systemd
+  169  sudo ls /etc/system/systemd
+  170  sudo ls /etc/system/
+  171  sudo ls /etc/systemd/system
+  172  sudo vi /etc/systemd/system/experimento2.service 
+  173  sudo systemctl daemon-reload
+  174  systemctl status experimento2.service 
+  175  systemctl start experimento2.service 
+  176  sudo systemctl start experimento2.service 
+  177  sudo vi /etc/systemd/system/experimento2.service 
+  178  sudo systemctl start experimento2.service 
+  179  sudo systemctl daemon-reload
+  180  sudo systemctl start experimento2.service 
+  181  sudo systemctl status experimento2.service 
+  182  sudo vi /etc/systemd/system/experimento2.service 
+  183  ls codigo-sd/
+  184  pwd
+  185  sudo vi /etc/systemd/system/experimento2.service 
+  186  sudo vi /etc/systemd/system/dbus.service 
+  187  sudo vi /etc/systemd/system/experimento2.service 
+  188  sudo systemctl status experimento2.service 
+  189  sudo systemctl start experimento2.service 
+  190  sudo systemctl status experimento2.service 
+  191  journalctl -af
+  192  sudo vi /etc/systemd/system/experimento2.service 
+  193  sudo systemctl stop experimento2.service 
+  194  sudo systemctl start experimento2.service 
+  195  journalctl -af
+  196  sudo systemctl stop experimento2.service 
+  197  sudo vi /etc/systemd/system/experimento2.service 
+  198  sudo systemctl start experimento2.service 
+  199  journalctl -af
+  200  journalctl 
+  201  journalctl --since=12
+  202  journalctl --since=12:00:00
+  203  journalctl --since=06:00:00
+  204  journalctl --since=31/03/2025 06:00:00
+  205  journalctl --since=12hours
+  206  journalctl --since=12hours ago
+  207  journalctl --since=12 hours ago
+  208  journalctl --since=12h ago
+  209  man journalctl
+  210  journalctl --since=31-03-2025 06:00:00
+  211  journalctl --since="31-03-2025 06:00:00"
+  212  man journalctl
+  213  journalctl --since=2025-03-31 06:00:00
+  214  journalctl --since="2025-03-31 06:00:00"
+  215  journalctl --since="2025-03-31 22:00:00"
+  216  man journalctl
+  217  journalctl -u experimento2
+  218  journalctl -u experimento
+  219  journalctl -u experimento*
+  220  journalctl -u experi*
+  221  cd codigo-sd/
+  222  python experimento3/udpReceiver.py 
+  223  git status
+  224  git status -uno
+  225  git fetch
+  226  git status -uno
+  227  git pull
+  228  python experimento3/udpReceiver.py 
+  229  git pull
+  230  python experimento3/udpReceiver.py 
+  231  git pull
+  232  python experimento3/udpReceiver.py 
+  233  cp /etc/systemd/system/experimento2.service /etc/systemd/system/experimento3.service
+  234  sudo cp /etc/systemd/system/experimento2.service /etc/systemd/system/experimento3.service
+  235  sudo vi /etc/systemd/system/experimento3.service
+  236  sudo systemctl daemon-reload
+  237  sudo systemctl start experimento3.service 
+  238  journalctl -u experi*
+  239  journalctl -u experimento3.service
+  240  q
+  241  journalctl -u experimento*
+  242  journalctl -u experimento2
+  243  journalctl -u experimento3
+  244  git pull
+  245  python experimento4/udpReceiver.py 
+  246  history
+  247  ls /etc/systemd/system
+  248  pwd
+  249  history > history.txt
+  250  ls
+  251  cp /etc/systemd/system/experimento2.service .
+  252  cp /etc/systemd/system/experimento3.service .
+  253  ls
+  254  sudo apt-get 
+  255  sudo apt-get -h
+  256  sudo yum list iproute2
+  257  sudo yu
+  258  sudo yum list iproute2
+  259  sudo yum list | grep ip
+  260  sudo yum list | grep ^ip
+  261  sudo yum list | grep ^iprou
+  262  tc
+  263  sudo yum
+  264  sudo yum info git
+  265  sudo yum info iproute2
+  266  sudo yum list
+  267  sudo yum info ssh
+  268  sudo yum info openssh
+  269  sudo yum info vim
+  270  sudo yum info vi
+  271  sudo yum info python
+  272  sudo yum info python3
+  273  sudo yum list | grep vim
+  274  sudo yum list | grep iproute
+  275  sudo yum info iproute
+  276  sudo yum info iproute-tc
+  277  sudo tc
+  278  sudo yum info iproute2
+  279  sudo yum list | grep iproute2
+  280  sudo yum list | grep iproute
+  281  cat /etc/os-release 
+  282  sudo yum list installed
+  283  sudo yum install iproute2
+  284  sudo yum install iproute
+  285  sudo yum install iproute-tc
+  286  sudo tc
+  287  ip a s
+  288  sudo tc qdisc
+  289  sudo tc qdisc -h
+  290  sudo tc qdisc help
+  291  sudo tc qdisc list
+  292  sudo tc qdisc show
+  293  sudo tc qdisc help
+  294  ls
+  295  ip a s
+  296  cat /etc/os-release 
+  297  cat /proc/cpuinfo 
+  298  free -m
+  299  fdisk -l
+  300  sudo fdisk -l
+  301  top
+  302  strace
+  303  strace -h
+  304  strace ls
+  305  ls /
+  306  ls -la /
+  307  free -m
+  308  cat /proc/cpuinfo
+  309  fdisk -l
+  310  ss
+  311  ss -nptl
+  312  ls
+  313  pwd
+  314  systemctl status experimento2
+  315  systemctl status experimento3
+  316  systemctl -a
+  317  q
+  318  ls 
+  319  ls /etc/systemd/
+  320  ls /etc/systemd/system
+  321  npm
+  322  history
+  323  sudo apt-get list
+  324  sudo apt-get
+  325  ulist node
+  326  sudo yum list
+  327  sudo yum list | grep node
+  328  sudo yum instal node:20
+  329  sudo yum install node:20
+  330  sudo yum install node
+  331  sudo yum update
+  332  sudo yum install node
+  333  sudo yum install nodejs
+  334  sudo yum list | grep nodejs
+  335  sudo yum install nodejs:20.18
+  336  sudo yum install nodejs-20.18
+  337  sudo yum install nodejs-20.18.2
+  338  sudo yum install nodejs
+  339  sudo yum install nodejs20
+  340  npm list
+  341  npm 
+  342  npm help
+  343  npm
+  344  node
+  345  sudo yum list | grep nodejs
+  346  nodejs20
+  347  node --version
+  348  dpk
+  349  yum
+  350  yum info nodejs20
+  351  yum info git
+  352  node
+  353  yum list | more
+  354  yum list 
+  355  yum install nodejs20
+  356  sudo yum install nodejs20
+  357  node20 --version
+  358  ls
+  359  ls /usr/bin
+  360  rpm4
+  361  rpm
+  362  yum list files nodejs20
+  363  yum files list nodejs20
+  364  sudo yum files list nodejs20
+  365  sudo yum list files nodejs20
+  366  rpm -qL nodejs20.x86_64
+  367  rpm -ql nodejs20.x86_64
+  368  rpm -a | grep node
+  369  rpm -l
+  370  rpm -qa | grep node
+  371  sudo yum list
+  372  node --version
+  373  which node
+  374  sudo yum install nodejs
+  375  node --version
+  376  npm --version
+  377  npm list
+  378  npm install delegua
+  379  npm install -g delegua
+  380  sudo npm install -g delegua
+  381  delegua
+  382  ls
+  383  vi teste_copia.alg
+  384  delegua --help
+  385  delegua -h
+  386  delegua --ajuda
+  387  delegua --dialeto visualg teste_copia.alg 
+  388  vi teste_copia.alg
+  389  delegua --dialeto visualg teste_copia.alg 
+  390  vi teste_copia.alg
+  391  delegua --dialeto visualg teste_copia.alg 
+  392  vi teste_copia.alg
+  393  delegua --dialeto visualg teste_copia.alg 
+  394  vi teste_copia.alg
+  395  ls
+  396  delegua --dialeto visualg teste_copia.alg 
+  397  vi teste_copia.alg
+  398  delegua --dialeto visualg teste_copia.alg 
+  399  delegua
+  400  delegua -h
+  401  delegua -D
+  402  echo "algoritmo "teste" inicio escreva("teste") fimalgoritmo" | delegua -d visualg -
+  403  echo "algoritmo "teste" inicio escreva("teste") fimalgoritmo" | delegua -d visualg 
+  404  delegua -d visualg << EOD
+  405  algoritmo "teste"
+  406  inicio
+  407  escreva("ABC")
+  408  fimalgoritmo
+  409  EOD
+  410  ls
+  411  ip a s
+  412  tc
+  413  ss -ntpl
+  414  ss -ntupl
+  415  ls
+  416  systemctl -a
+  417  ls
+  418  systemctl 
+  419  systemctl | grep experi
+  420  ls
+  421  last
+  422  ls /etc/systemd/
+  423  ls /etc/systemd/user
+  424  view /etc/systemd/user.conf 
+  425  ls /etc/systemd/user
+  426  ls -la /etc/systemd/user
+  427  ls
+  428  pwd
+  429  history
+  430  systemctl status experimento2.service 
+  431  systemctl status experimento3.service 
+  432  ls /etc/systemd/system
+  433  systemctl start experimento2.service 
+  434  sudo systemctl start experimento2.service 
+  435  sudo systemctl start experimento3.service 
+  436  systemctl 
+  437  systemctl | grep experimento
+  438  ss -ntupl
+  439  sudo tc qdisc
+  440  sudo tc qdisc add dev enX0 root handle 1: prio
+  441  sudo tc qdisc
+  442  sudo tc qdisc add dev enX0 parent 1:1 handle 10: netem loss 5%
+  443  sudo tc qdisc
+  444  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32 match ip dport 50002 0xffff flowid 1:1
+  445  sudo tc qdisc
+  446  ip a s
+  447  sudo tc qdisc
+  448  sudo tc filter
+  449  sudo tc filter help
+  450  sudo tc filter show
+  451  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32 match ip dport 8080 0xffff flowid 1:1
+  452  sudo tc filter show
+  453  sudo tc filter show dev enX0
+  454  sudo tc -s filter show dev enX0
+  455  systemctl status experimento2.service 
+  456  systemctl status experimento3.service 
+  457  sudo tc filter show dev enX0
+  458  sudo tc -s filter show dev enX0
+  459  sudo tc qdisc show
+  460  sudo sudo tc qdisc del dev enX0 root
+  461  sudo tc qdisc show
+  462  sudo tc filter show
+  463  ip -s link show enX0
+  464  sudo tc qdisc del dev enX0 root
+  465  sudo tc qdisc add dev enX0 root handle 1: prio
+  466  sudo tc qdisc add dev enX0 parent 1:1 handle 10: netem delay 100ms loss 5%
+  467  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32   match ip dport 50002 0xffff flowid 1:1
+  468  sudo tc qdisc del dev enX0 root
+  469  sudo tc qdisc add dev enX0 root handle 1: prio
+  470  sudo tc qdisc add dev enX0 parent 1:1 handle 10: netem delay 100ms loss 5%
+  471  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32   match ip dport 50002 0xffff flowid 1:1
+  472  sudo tc -s qdisc show dev enX0
+  473  ss -ntupl
+  474  sudo tc qdisc del dev enX0 root
+  475  sudo tc qdisc add dev enX0 root handle 1: prio
+  476  sudo tc qdisc add dev enX0 parent 1:1 handle 10: netem delay 100ms loss 5%
+  477  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32 	match ip dport 50002 0xffff match ip protocol 17 0xff flowid 1:1
+  478  sudo tc -s qdisc show dev enX0
+  479  sudo tc -s filter show dev enX0
+  480  sudo tc -s qdisc show dev enX0
+  481  sudo tc -s filter show dev enX0
+  482  sudo tc -s qdisc show dev enX0
+  483  sudo tc filter add dev enX0 protocol ip parent 1:0 prio 1 u32 match ip dport 50002 0xffff match ip protocol 17 0xff flowid 1:1
+  484  sudo tc -s filter show dev enX0
+  485  ip a s
+  486  history
+  487  sudo tc qdisc show
+  488  sudo tc filter show
+  489  sudo tc qdisc show
+  490  sudo -s tc filter show
+  491  sudo tc -s qdisc show
+  492  sudo tc -s filter show
+  493  ls
+  494  systemctl status experiment3
+  495  systemctl status experimento3
+  496  ss -ntpl
+  497  ss -ntupl
+  498  ls
+  499  cd codigo-sd/
+  500  ls
+  501  history | grep experimento3.service
+  502  cd /etc/systemd/system
+  503  ls
+  504  cp experimento3.service experimento6.service
+  505  sudo cp experimento3.service experimento6.service
+  506  sudo vi experimento6.service 
+  507  view /home/ec2-user/codigo-sd/experimento6/tcpServer.py
+  508  view /home/ec2-user/codigo-sd/experimento3/udpReceiver.py 
+  509  view /home/ec2-user/codigo-sd/experimento6/tcpServer.py
+  510  sudo vi experimento6.service 
+  511  ls
+  512  systemctl status experimento6.service 
+  513  systemctl status experimento3.service 
+  514  systemctl start experimento6.service 
+  515  systemctl status experimento6.service
+  516  ls -l
+  517  cat experimento6.service 
+  518  /usr/bin/python -u /home/ec2-user/codigo-sd/experimento6/tcpServer.py --host 0.0.0.0 --port 50006
+  519  systemctl status experimento6.service
+  520  systemctl start experimento6.service
+  521  sudo systemctl start experimento6.service
+  522  systemctl status experimento6.service
+  523  systemctl status experimento6
+  524  systemctl status experimento6.service 
+  525  systemctl start experimento6.service 
+  526  sudo systemctl start experimento6.service 
+  527  systemctl status experimento6.service 
+  528  htop
+  529  top
+  530  fg
+  531  history
+  532  ps
+  533  ps -aux
+  534  sudo yum install htop
+  535  htop
+  536  top
+  537  ps 
+  538  ps
+  539  clear
+  540  ps
+  541  ps aux
+  542  htop
+  543  clear
+  544  htop
+  545  pwd
+  546  ls
+  547  python -v
+  548  python -version
+  549  python -V
+  550  python
+  551  vi laco_infinito.py
+  552  ls
+  553  python laco_infinito.py 
+  554  ls
+  555  cat laco_infinito.py 
+  556  python laco_infinito.py 
+  557  top
+  558  ps
+  559  ps aux
+  560  top
+  561  htop
+  562  ls
+  563  cat laco_infinito.py 
+  564  python laco_infinito.py 
+  565  cat /etc/os-release 
+  566  top
+  567  ps aux
+  568  htop
+  569  ls
+  570  cat laco_infinito.py 
+  571  python laco_infinito.py 
+  572  vi laco_infinito.py 
+  573  python laco_infinito.py 
+  574  top
+  575  ps 
+  576  ps aux
+  577  htop
+  578  ls
+  579  systemctl 
+  580  systemctl | grep experimento
+  581  ls
+  582  node
+  583  history
+  584  history > awsserver_history_log.txt
