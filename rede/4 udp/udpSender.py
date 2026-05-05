@@ -2,7 +2,7 @@ import socket
 import select
 import time
 
-host = "52.90.82.178"
+host = "154.12.237.28"
 port = 50004
 
 
