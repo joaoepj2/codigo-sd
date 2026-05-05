@@ -1,6 +1,6 @@
 import socket
  
-host = "52.90.82.178"
+host = "154.12.237.28"
 port = 50002
 message = b'Eu sou um Datagrama!'
 
