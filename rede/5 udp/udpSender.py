@@ -1,8 +1,8 @@
 import socket
 import time
  
-host = "44.201.233.10"
-port = 50000
+host = "154.12.237.28"
+port = 50005
 
  
 sock = socket.socket(socket.AF_INET, # Internet
