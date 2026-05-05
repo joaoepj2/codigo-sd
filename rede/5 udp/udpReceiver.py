@@ -1,7 +1,7 @@
 import socket
  
 UDP_IP = "0.0.0.0"
-UDP_PORT = 50000
+UDP_PORT = 50005
 counter = 1
  
 sock = socket.socket(socket.AF_INET, # Internet
