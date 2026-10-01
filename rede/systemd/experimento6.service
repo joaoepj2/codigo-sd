@@ -1,0 +1,21 @@
+[Unit]
+Description=Experimento 6 Service
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python -u /root/codigo-sd/rede/6_tcp/tcpServer.py --host 0.0.0.0
+StandardInput=tty-force
+
+# Automatically restart the service if it crashes
+Restart=always
+RestartSec=15
+
+# set Python's buffering of STDOUT and STDERR value to systemd, so that output from the
+# service shows up immediately in systemd's logs
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
