@@ -3,7 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--host", default="127.0.0.1", type=str)
-parser.add_argument("--port", default=6789, type=int)
+parser.add_argument("--port", default=50006, type=int)
 parser.add_argument("--message", default="Mensagem padrão!", type=str)
 args = parser.parse_args()
 
