@@ -4,7 +4,7 @@ Execute udpReceiver e udpSender na sua máquina
 
 1. Execute o udpReceiver
    $ python .\udpReceiver.py
-3. Execute o udpSender várias vezes
+2. Execute o udpSender várias vezes
    $ python .\udpSender.py
 
 Cole os resultados no trabalho

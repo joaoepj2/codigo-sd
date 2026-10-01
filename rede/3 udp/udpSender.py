@@ -1,7 +1,7 @@
 import socket
 import select
 
-host = "154.12.237.28"
+host = "profjoao.ldop.com"
 port = 50003
 
 

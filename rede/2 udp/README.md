@@ -2,7 +2,7 @@
 
 O udpReceiver já está rodando na máquina remota e é necessário rodar o udpSender na máquina local
 
-1. Execute o seguinte comando no prompt do Windows: tracert -d 154.12.237.28
+1. Execute o seguinte comando no prompt do Windows: tracert -d profjoao.ldop.com
 Cole o resultado no trabalho
 2. Execute o udpSender várias vezes usando redes diferentes (de casa, do trabalho, da escola)
 Cole os resultados no trabalho

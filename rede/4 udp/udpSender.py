@@ -2,7 +2,7 @@ import socket
 import select
 import time
 
-host = "154.12.237.28"
+host = "profjoao.ldop.com"
 port = 50004
 
 
